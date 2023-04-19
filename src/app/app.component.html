@@ -1,0 +1,8 @@
+<div class="container">
+  <span class="loader" *ngIf="loader.loading">
+    Loading..
+  </span>
+  <span *ngIf="!loader.loading">
+    {{finishedProduct.name | titlecase}} : {{finishedProduct.price | currency}}
+  </span>
+</div>

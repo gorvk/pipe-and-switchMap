@@ -1,0 +1,19 @@
+.container{
+    background-color: bisque;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.loader{
+    color: rgb(97, 97, 97);
+}
